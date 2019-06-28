@@ -1,0 +1,19 @@
+<div *ngIf="campo.errors.required">
+    <span class="mdl-textfield__error">
+      Campo obrigatório.
+    </span>
+</div>
+
+<div *ngIf="campo.errors.pattern">
+    <span class="mdl-textfield__error">
+      Formato inválido.
+    </span>
+</div>
+
+<div *ngIf="campo.errors.minlength">
+    <span class="mdl-textfield__error">
+        Você preencheu {{ campo.errors.minlength.actualLength }} caracteres de {{
+          campo.errors.minlength.requiredLength }}
+    </span>
+</div>
+ 

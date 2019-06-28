@@ -1,0 +1,24 @@
+.hhh {
+    width: 750px;
+}
+
+ .parent {
+  display: flex;
+  border: 1px solid red;
+  height: 100px;
+}
+
+.left-buttons {
+  width: 50px;
+  background: pink;
+}
+
+.filler {
+  flex-grow: 1;
+  background: lightgreen;
+}
+
+.right-buttons {
+  width: 50px;
+  background: lightblue;
+}

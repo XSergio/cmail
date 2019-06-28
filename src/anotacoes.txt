@@ -1,0 +1,17 @@
+* Em uma classe se o método estiver marcado 
+como get não será necessária os () para executar o método
+Ex:
+
+buscaProduto() {
+    return this._produto
+}
+
+Tenho que fazer a chamada com a execução: obj.buscaProduto();
+
+Se o método for marcado com get:
+
+get buscaProduto() {
+    return this._produto;
+}
+
+Não será necessário execução: obj.buscaProduto;
